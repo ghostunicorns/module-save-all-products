@@ -1,0 +1,30 @@
+{
+    "name": "ghostunicorns/module-save-all-products",
+    "description": "This module save all products using repository through this command: `bin/magento save-all-products`",
+    "require": {
+        "magento/framework": "*"
+    },
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Danilo Argentiero",
+            "email": "argentiero.danilo@gmail.com",
+            "homepage": "https://www.linkedin.com/in/daniloargentiero/",
+            "role": "Software Architect"
+        },
+        {
+            "name": "Riccardo Ugolini",
+            "email": "riccardo.ugolini@gmail.com",
+            "homepage": "https://www.linkedin.com/in/riccardougolini/",
+            "role": "Software Architect"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "GhostUnicorns\\SaveAllProducts\\": ""
+        }
+    }
+}
