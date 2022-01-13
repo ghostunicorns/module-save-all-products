@@ -19,6 +19,9 @@
             "role": "Software Architect"
         }
     ],
+    "license": [
+        "MIT"
+    ],
     "autoload": {
         "files": [
             "registration.php"
